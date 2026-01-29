@@ -3,16 +3,12 @@
 ## Overview
 This project predicts passenger survival on the Titanic using machine learning classification techniques. The work includes data preprocessing, exploratory data analysis, feature engineering, and model training to understand which factors most influenced survival outcomes.
 
----
 
 ## Dataset
-- **File:** tested.csv  
 - **Records:** 418 passengers  
 - **Target Variable:** Survived  
   - 0 = Did not survive  
   - 1 = Survived  
-
----
 
 ## Exploratory Data Analysis
 Exploratory analysis was performed to study survival patterns based on:
@@ -24,7 +20,6 @@ Exploratory analysis was performed to study survival patterns based on:
 
 Missing values in age, fare, and cabin features were identified and handled during preprocessing.
 
----
 
 ## Feature Engineering
 The following feature transformations were applied:
@@ -35,7 +30,6 @@ The following feature transformations were applied:
 - Generated interaction features including `Age_Class` and `Fare_Per_Person`
 - Removed non-informative features such as passenger name, ticket number, and cabin
 
----
 
 ## Models Used
 The following machine learning models were implemented:
@@ -45,7 +39,12 @@ The following machine learning models were implemented:
 - Random Forest
 - Support Vector Machine (SGD-based)
 
----
+
+## Tools & Technologies
+- Python  
+- NumPy, Pandas  
+- Matplotlib, Seaborn  
+- Scikit-learn  
 
 ## Output
 The notebook produces:
@@ -55,22 +54,10 @@ The notebook produces:
 
 The results show that feature engineering plays a significant role in improving model performance.
 
----
-
-## Tools & Technologies
-- Python  
-- NumPy, Pandas  
-- Matplotlib, Seaborn  
-- Scikit-learn  
-
----
-
 ## Key Learnings
 - Feature engineering has a strong impact on prediction quality
 - Family-related and socio-economic features are important indicators of survival
 - Comparing multiple models helps understand performance trade-offs
-
----
 
 ## Future Work
 - Apply cross-validation to reduce overfitting
