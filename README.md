@@ -45,14 +45,6 @@ The following machine learning models were implemented:
 - Matplotlib, Seaborn  
 - Scikit-learn  
 
-## Output
-The notebook produces:
-- Survival predictions for passengers
-- Accuracy scores for trained models
-- Visualizations highlighting relationships between features and survival outcomes
-
-The results show that feature engineering plays a significant role in improving model performance.
-
 ## Key Learnings
 - Feature engineering has a strong impact on prediction quality
 - Family-related and socio-economic features are important indicators of survival
